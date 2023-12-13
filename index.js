@@ -1,5 +1,4 @@
 function scuberGreetingForFeet(feet) {
-  // Write your code here!
   let answer;
 
   if (feet <= 400) {
@@ -16,7 +15,6 @@ scuberGreetingForFeet(2001);
 scuberGreetingForFeet(2501);
 
 function ternaryCheckCity(city) {
-  // Write your code here!
   let result;
 
   city === "NYC" ? (result = "Ok, sounds good.") : (result = "No go.");
@@ -25,8 +23,6 @@ function ternaryCheckCity(city) {
 }
 
 function switchOnCharmFromTip(tip) {
-  // Write your code here!
-
   switch (tip) {
     case "generous":
       return "Thank you so much.";
